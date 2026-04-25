@@ -12,7 +12,7 @@ export default function CustomPrintPage() {
         </p>
       </div>
 
-      <form className="space-y-6" action="/api/custom-request" method="POST">
+      <form className="space-y-6" action="https://formspree.io/f/xaqakwkw" method="POST">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div>
             <label className="block text-sm font-medium text-white/60 mb-2">
