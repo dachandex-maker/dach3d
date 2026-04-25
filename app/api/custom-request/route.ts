@@ -1,6 +1,8 @@
 import nodemailer from "nodemailer";
 import { NextRequest, NextResponse } from "next/server";
 
+export const runtime = "nodejs";
+
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
